@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIButton+ButtonLayoutStyle.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(50, 100, 50,50)];
+    button.center = self.view.center;
+    [button setBackgroundColor:[UIColor darkGrayColor]];
+    [button setImage:[UIImage imageNamed:@"1"] forState:UIControlStateNormal];
+    [button setTitle:@"左字右图" forState:UIControlStateNormal];
+
+    [button setButtonLayoutStyle:LS_TopImage_BottomTitle padding:40];
+    [self.view addSubview:button];
+    
+    int a = 0;
 }
 
 

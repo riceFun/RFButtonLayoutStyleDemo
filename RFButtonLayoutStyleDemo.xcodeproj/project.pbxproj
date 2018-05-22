@@ -16,6 +16,8 @@
 		21C929B320B3AE600044A588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C929B220B3AE600044A588 /* main.m */; };
 		21C929BD20B3AE610044A588 /* RFButtonLayoutStyleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C929BC20B3AE610044A588 /* RFButtonLayoutStyleDemoTests.m */; };
 		21C929C820B3AE610044A588 /* RFButtonLayoutStyleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C929C720B3AE610044A588 /* RFButtonLayoutStyleDemoUITests.m */; };
+		21C929D720B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C929D520B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.m */; };
+		21C929D920B3B0260044A588 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21C929D820B3B0260044A588 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		21C929C320B3AE610044A588 /* RFButtonLayoutStyleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFButtonLayoutStyleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C929C720B3AE610044A588 /* RFButtonLayoutStyleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFButtonLayoutStyleDemoUITests.m; sourceTree = "<group>"; };
 		21C929C920B3AE610044A588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C929D520B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonLayoutStyle.m"; sourceTree = "<group>"; };
+		21C929D620B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonLayoutStyle.h"; sourceTree = "<group>"; };
+		21C929D820B3B0260044A588 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 				21C929AE20B3AE600044A588 /* LaunchScreen.storyboard */,
 				21C929B120B3AE600044A588 /* Info.plist */,
 				21C929B220B3AE600044A588 /* main.m */,
+				21C929D620B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.h */,
+				21C929D520B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.m */,
+				21C929D820B3B0260044A588 /* 1.png */,
 				21C929A920B3AE5F0044A588 /* RFButtonLayoutStyleDemo.xcdatamodeld */,
 			);
 			path = RFButtonLayoutStyleDemo;
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C929B020B3AE600044A588 /* LaunchScreen.storyboard in Resources */,
+				21C929D920B3B0260044A588 /* 1.png in Resources */,
 				21C929AD20B3AE600044A588 /* Assets.xcassets in Resources */,
 				21C929A820B3AE5F0044A588 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C929D720B3AE7F0044A588 /* UIButton+ButtonLayoutStyle.m in Sources */,
 				21C929A520B3AE5F0044A588 /* ViewController.m in Sources */,
 				21C929AB20B3AE5F0044A588 /* RFButtonLayoutStyleDemo.xcdatamodeld in Sources */,
 				21C929B320B3AE600044A588 /* main.m in Sources */,
